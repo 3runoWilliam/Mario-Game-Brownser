@@ -2,7 +2,6 @@ const mario = document.querySelector('.mario');
 const cano = document.querySelector('.mario');
 
 const jump = () => {
-    
     setTimeout(() => {
         mario.classList.remove('jump');
     }, 500)
@@ -10,7 +9,6 @@ const jump = () => {
 }
 
 const loop = setInterval(() => {
-
     const canoPosition = cano.offsetLeft;
     const marioPosition = +window.getComputedStyle(mario).bottom.replace('px', '');
 
@@ -28,7 +26,5 @@ const loop = setInterval(() => {
 
         clearInterval(loop);
     }
-
 }, 10);
-
 document.addEventListener('keydown', jump)
