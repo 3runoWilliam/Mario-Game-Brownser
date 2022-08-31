@@ -27,17 +27,14 @@
     bottom: 0;
 
 }
-
 .pulo {
     animation: jump 500ms ease-out;
 }
-
 .nuvens {
     position: absolute;
     width: 550px;
     animation: nuvems-animação 15s infinite linear;
 }
-
 @keyframes canos-animações {
     from {
         right: 0;
@@ -47,7 +44,6 @@
         right: 100%;
     }
 }
-
 @keyframes pulo {
 
     0% {
