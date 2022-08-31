@@ -45,7 +45,6 @@
     }
 }
 @keyframes pulo {
-
     0% {
         bottom: 0;
     }
@@ -65,9 +64,7 @@
     100% {
         bottom: 0;
     }
-    
 }
-
 @keyframes nuvens-animação {
 
     from {
@@ -75,6 +72,5 @@
     }
     to {
         right: 100%;
-    }
-    
+    } 
 }
