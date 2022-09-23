@@ -24,7 +24,6 @@
     width: 150px;
     position: absolute;
     bottom: 0;
-
 }
 .pulo {
     animation: jump 500ms ease-out;
